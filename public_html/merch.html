@@ -1,56 +1,92 @@
-<!-- Merch Page by Mark Becker -->
-<!doctype html>
-<html lang = "en">
+<!DOCTYPE html>
 
-<head>
-    <title> Burnt Okra Merchandise</title>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Merch</title>
 
-    <!-- Main CSS styles for Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Optional theme add-on -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/simplex/bootstrap.min.css">
-</head>                                    
+    <link rel="stylesheet" type ="text/css" href = "style_sheet.css">
 
-<body>
-    <link rel="stylesheet" type ="text/css" href = "css_test.css">
-    <header>
-        <img src="images/graphic.png" alt="Burnt Okra Logo" height="150" Width="300"/>      
-    </header>
-    <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>          
-        <li><a href="about.html">About</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="social_media.html">Social Media</a></li>
-        <li><a href="merch.html">Merch</a></li>
-    </ul>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/united/bootstrap.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="#">Burnt Okra</a>
+        </div>
+
+          <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Welcome Page</a></li>
+            <li><a href="merch.html">Merch</a></li>
+            <li><a href="social_media.html">Social Media</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="news.html">News</a></li>
+               <li><a href="events.html">Events</a></li>
+               <li><a href="login.html">Login</a></li>
+               <li><a href="sign_up.html">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
-    <h1>Burnt Okra Merch</h1>
-    <table>
-        <tbody>
-            <tr>
-                <th>Tee Shirts</th>
-                <th>Wristbands</th>
-            </tr>
-            <tr>
-                <td><img src="images/blackTeeShirt.png" alt="Black Tee Shirt"/></td>
-                <td><img src="images/blackWristband.png" alt="Black Wristband"/></td>
-            </tr>
-            <tr>
-                <td><img src="images/whiteTeeShirt.png" alt="White Tee Shirt"/></td>
-                <td><img src="images/whiteWristband.png" alt="White Wristband"/></td>
-            </tr>
-        </tbody>
-    </table>
-        
-    <footer>
-        <p>&copy;2017 by Burnt Okra</p>
-    </footer>
-</body>
-               
+
+    <div class="container">
+      <div class="below_menu_container">
+      </div>
+    </div>
+
+     <header>
+         <img src="images/burnt_okra_logo.png" alt="Burnt Okra Logo" height="150" Width="300"/>
+     </header>
+     <h1>
+        Merchandise
+    </h1>
+
+      <table>
+            <tbody>
+                <tr>
+                    <th>Tee Shirts</th>
+                    <th>Wristbands</th>
+                </tr>
+                <tr>
+                    <td><img src="images/blackTeeShirt.png" alt="Black Tee Shirt"/></td>
+                    <td><img src="images/blackWristband.png" alt="Black Wristband"/></td>
+                </tr>
+                <tr>
+                    <td><img src="images/whiteTeeShirt.png" alt="White Tee Shirt"/></td>
+                    <td><img src="images/whiteWristband.png" alt="White Wristband"/></td>
+                </tr>
+            </tbody>
+        </table>
+
+    <a href="#" class="btn btn-default">Main Page</a>
+    <a href="#" class="btn btn-primary">Sign Up Here</a>
+    <a href="#" class="btn btn-success">Login Here</a>
+    <a href="#" class="btn btn-info">Info</a>
+    <a href="#" class="btn btn-warning">Prices</a>
+    <a href="#" class="btn btn-danger">Copyright</a>
+
+     <footer>
+      <p>&copy;2017 by Burnt Okra</p>
+     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
 </html>
